@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="slider">
+        <!-- <div class="header"></div> -->
+        <div class="slider-controls">
+          <div class="control-left" onclick="goBack()"></div>
+          <div class="control-right" onclick="goNext()"></div>
+        </div>
+        <div class="slider-width">
+          <!-- 👆🏻 Largura dinamica de acordo com o conteudo dentro da div -->
+          <div
+            class="slider-item"
+            style="background-image: url('images/image1.webp')"
+          >
+            Welcome Autumn
+          </div>
+          <div
+            class="slider-item"
+            style="background-image: url('images/image4.webp')"
+          >
+            Into the mountains
+          </div>
+          <div
+            class="slider-item"
+            style="background-image: url('images/image6.webp')"
+          >
+            Lights and colors
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h1>This is the body element</h1>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
